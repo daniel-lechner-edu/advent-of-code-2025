@@ -12,8 +12,8 @@ python riddles/day-<n>-part<n>.py
 
 ## Riddles
 
-- Day 1: [Part 1](./riddles/day-1-part1.py) | [Part 2](./riddles/day-1-part2.py)
-- Day 2: [Part 1](./riddles/day-2-part1.py) | [Part 2](./riddles/day-2-part2.py)
+- [Instruction](./riddles/day-1.md), Day 1: [Part 1](./riddles/day-1-part1.py) | [Part 2](./riddles/day-1-part2.py)
+- [Instruction](./riddles/day-2.md), Day 2: [Part 1](./riddles/day-2-part1.py) | [Part 2](./riddles/day-2-part2.py)
 
 ## Solutions
 
