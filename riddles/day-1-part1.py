@@ -1,4 +1,4 @@
-import os
+from utils import read_input_lines
 
 def solve_safe_dial(instructions):
     position = 50
@@ -19,10 +19,6 @@ def solve_safe_dial(instructions):
     return zero_count
 
 if __name__ == "__main__":
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    input_path = os.path.join(script_dir, "..", "inputs", "day-1.txt")
-
-    with open(input_path, 'r') as f:
-        instructions = [line.strip() for line in f.readlines()]
-        result = solve_safe_dial(instructions)
-        print(f'Part 1: {result}')
+    instructions = read_input_lines("day-1.txt")
+    result = solve_safe_dial(instructions)
+    print(f'Part 1: {result}')

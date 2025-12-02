@@ -1,4 +1,4 @@
-import os
+from utils import read_input
 
 def is_invalid_id(num):
     s = str(num)
@@ -12,10 +12,7 @@ def is_invalid_id(num):
                     return True
     return False
 
-def solve(input_file):
-    with open(input_file) as f:
-        data = f.read().strip()
-
+def solve(data):
     ranges = data.split(',')
     total = 0
 
@@ -28,7 +25,6 @@ def solve(input_file):
     return total
 
 if __name__ == "__main__":
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    input_path = os.path.join(script_dir, "..", "inputs", "day-2.txt")
-    result = solve(input_path)
+    data = read_input("day-2.txt")
+    result = solve(data)
     print(f"Part 2: {result}")
