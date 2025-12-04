@@ -21,7 +21,9 @@ python riddles/day-<n>-part<n>.py
 - **Day 3:** [Instruction](./riddles/day-3.md) & [Input](./inputs/day-3.txt)
   - [Part 1](./riddles/day-3-part1.py)
   - [Part 2](./riddles/day-3-part2.py)
-- **Day 4:** [Instruction](./riddles/day-4.md)
+- **Day 4:** [Instruction](./riddles/day-4.md) & [Input](./inputs/day-4.txt)
+  - [Part 1](./riddles/day-4-part1.py)
+  - [Part 2](./riddles/day-4-part2.py)
 
 ## Solutions
 
@@ -32,4 +34,6 @@ Day 2, Part 1: 23534117921
 Day 2, Part 2: 31755323497
 Day 3, Part 1: 17316
 Day 3, Part 2: 171741365473332
+Day 4, Part 1: 1543
+Day 4, Part 2: 9038
 ```
