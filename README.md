@@ -21,6 +21,7 @@ python riddles/day-<n>-part<n>.py
 - **Day 3:** [Instruction](./riddles/day-3.md) & [Input](./inputs/day-3.txt)
   - [Part 1](./riddles/day-3-part1.py)
   - [Part 2](./riddles/day-3-part2.py)
+- **Day 4:** [Instruction](./riddles/day-4.md)
 
 ## Solutions
 
